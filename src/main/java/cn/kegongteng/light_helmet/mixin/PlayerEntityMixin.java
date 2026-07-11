@@ -1,6 +1,6 @@
 package cn.kegongteng.light_helmet.mixin;
 
-import cn.kegongteng.light_helmet.item.LightHelmetItems;
+import cn.kegongteng.light_helmet.item.ModItems;
 import net.minecraft.block.Blocks;
 import net.minecraft.entity.player.PlayerEntity;
 import net.minecraft.util.math.BlockPos;
@@ -20,7 +20,7 @@ public class PlayerEntityMixin {
         if (++tickCounter % TICK_INTERVAL != 0) return;
 
         PlayerEntity player = (PlayerEntity) (Object) this;
-        boolean wearing = player.getInventory().getArmorStack(3).isOf(LightHelmetItems.LIGHT_HELMET);
+        boolean wearing = player.getInventory().getArmorStack(3).isOf(ModItems.LIGHT_HELMET);
 
         if (!wearing) {
             clearLight(player);

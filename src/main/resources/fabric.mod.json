@@ -11,15 +11,14 @@
 		"homepage": "https://github.com/gtxykn0504/light-helmet",
 		"sources": "https://github.com/gtxykn0504/light-helmet"
 	},
-	"license": "MIT",
 	"icon": "assets/light_helmet/icon.png",
 	"environment": "*",
 	"entrypoints": {
 		"main": [
-			"cn.kegongteng.light_helmet.LightHelmet"
+			"cn.kegongteng.light_helmet.LightHelmetMod"
 		],
 		"fabric-datagen": [
-			"cn.kegongteng.light_helmet.LightHelmetDataGenerator"
+			"cn.kegongteng.light_helmet.ModDataGenerator"
 		]
 	},
 	"mixins": [
