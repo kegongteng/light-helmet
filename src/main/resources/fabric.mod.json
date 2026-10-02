@@ -8,8 +8,8 @@
 		"kegongteng"
 	],
 	"contact": {
-		"homepage": "https://github.com/gtxykn0504/light-helmet",
-		"sources": "https://github.com/gtxykn0504/light-helmet"
+		"homepage": "https://github.com/kegongteng/light-helmet",
+		"sources": "https://github.com/kegongteng/light-helmet"
 	},
 	"icon": "assets/light_helmet/icon.png",
 	"environment": "*",
